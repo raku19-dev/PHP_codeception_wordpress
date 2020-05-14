@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" class="ie8 wp-toolbar"
+	lang="en-GB"	>
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar"
+	lang="en-GB"	>
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Dashboard &lsaquo; Introduction to WordPress &#8212; WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'dashboard',
+	typenow = '',
+	adminpage = 'index-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel='dns-prefetch' href='//s.w.org' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' href='http://localhost/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&amp;load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&amp;ver=5.4.1' type="text/css" media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://localhost/wp-includes/js/thickbox/thickbox.css?ver=5.4.1' media='all' />
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://localhost/wp-admin/css/ie.min.css?ver=5.4.1' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='fs_common-css'  href='http://localhost/wp-content/plugins/ocean-extra/includes/freemius/assets/css/admin/common.css?ver=5.4.1' media='all' />
+<link rel='stylesheet' id='oe-admin-notice-css'  href='http://localhost/wp-content/plugins/ocean-extra/includes/panel/assets/css/notice.min.css?ver=5.4.1' media='all' />
+<link rel='stylesheet' id='oceanwp-news-css'  href='http://localhost/wp-content/plugins/ocean-extra/assets/css/admin.min.css?ver=5.4.1' media='all' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1589119381","secure":""};/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp-admin/load-scripts.php?c=1&amp;load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils&amp;ver=5.4.1'></script>
+<style>div#setting-error-tgmpa{display:block;}</style>	<link id="wp-admin-canonical" rel="canonical" href="http://localhost/wp-admin/" />
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+	<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#a0a5aa","focus":"#00a0d2","current":"#fff"}};</script>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	</head>
+<body class="wp-admin wp-core-ui no-js index-php auto-fold admin-bar branch-5-4 version-5-4-1 admin-color-fresh locale-en-gb no-customize-support no-svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain).
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href='index.php' class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-last" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-dashboard'><br /></div><div class='wp-menu-name'>Dashboard</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Dashboard</li><li class="wp-first-item current"><a href='index.php' class="wp-first-item current" aria-current="page">Home</a></li><li><a href='update-core.php'>Updates <span class="update-plugins count-0"><span class="update-count">0</span></span></a></li><li><a href='owp_setup'></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href='edit.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-post'><br /></div><div class='wp-menu-name'>Posts</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Posts</li><li class="wp-first-item"><a href='edit.php' class="wp-first-item">All Posts</a></li><li><a href='post-new.php'>Add New</a></li><li><a href='edit-tags.php?taxonomy=category'>Categories</a></li><li><a href='edit-tags.php?taxonomy=post_tag'>Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href='upload.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-media'><br /></div><div class='wp-menu-name'>Media</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Media</li><li class="wp-first-item"><a href='upload.php' class="wp-first-item">Library</a></li><li><a href='media-new.php'>Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href='edit.php?post_type=page' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-page'><br /></div><div class='wp-menu-name'>Pages</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Pages</li><li class="wp-first-item"><a href='edit.php?post_type=page' class="wp-first-item">All Pages</a></li><li><a href='post-new.php?post_type=page'>Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<a href='edit-comments.php' class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-comments'><br /></div><div class='wp-menu-name'>Comments <span class="awaiting-mod count-0"><span class="pending-count" aria-hidden="true">0</span><span class="comments-in-moderation-text screen-reader-text">0 Comments in moderation</span></span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href='themes.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-appearance'><br /></div><div class='wp-menu-name'>Appearance</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Appearance</li><li class="wp-first-item"><a href='themes.php' class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2F' class="hide-if-no-customize">Customise</a></li><li><a href='widgets.php'>Widgets</a></li><li><a href='nav-menus.php'>Menus</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2F&#038;autofocus%5Bcontrol%5D=header_image' class="hide-if-no-customize">Header</a></li><li><a href='themes.php?page=install-required-plugins'>Install Plugins</a></li><li><a href='themes.php?page=custom-header'>Header</a></li><li><a href='theme-editor.php'>Theme Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href='plugins.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-plugins'><br /></div><div class='wp-menu-name'>Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></li><li class="wp-first-item"><a href='plugins.php' class="wp-first-item">Installed Plugins</a></li><li><a href='plugin-install.php'>Add New</a></li><li><a href='plugin-editor.php'>Plugin Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href='users.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-users'><br /></div><div class='wp-menu-name'>Users</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Users</li><li class="wp-first-item"><a href='users.php' class="wp-first-item">All Users</a></li><li><a href='user-new.php'>Add New</a></li><li><a href='profile.php'>Your Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href='tools.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-tools'><br /></div><div class='wp-menu-name'>Tools</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Tools</li><li class="wp-first-item"><a href='tools.php' class="wp-first-item">Available Tools</a></li><li><a href='import.php'>Import</a></li><li><a href='export.php'>Export</a></li><li><a href='site-health.php'>Site Health</a></li><li><a href='export-personal-data.php'>Export Personal Data</a></li><li><a href='erase-personal-data.php'>Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href='options-general.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-settings'><br /></div><div class='wp-menu-name'>Settings</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Settings</li><li class="wp-first-item"><a href='options-general.php' class="wp-first-item">General</a></li><li><a href='options-writing.php'>Writing</a></li><li><a href='options-reading.php'>Reading</a></li><li><a href='options-discussion.php'>Discussion</a></li><li><a href='options-media.php'>Media</a></li><li><a href='options-permalink.php'>Permalinks</a></li><li><a href='options-privacy.php'>Privacy</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_oceanwp-panel menu-top-first menu-top-last" id="toplevel_page_oceanwp-panel">
+	<a href='admin.php?page=oceanwp-panel' class="wp-not-current-submenu menu-top toplevel_page_oceanwp-panel menu-top-first menu-top-last" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-generic'><br /></div><div class='wp-menu-name'>Theme Panel</div></a></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-menu-toggle'><a class='ab-item' href='#'><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-admin/about.php'><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='http://localhost/wp-admin/about.php'>About WordPress</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://en-gb.wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://codex.wordpress.org/'>Documentation</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://wordpress.org/support/'>Support</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/'>Introduction to WordPress</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-view-site'><a class='ab-item' href='http://localhost/'>Visit Site</a></li></ul></div></li><li id='wp-admin-bar-comments'><a class='ab-item' href='http://localhost/wp-admin/edit-comments.php'><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-admin/post-new.php'><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='http://localhost/wp-admin/post-new.php'>Post</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='http://localhost/wp-admin/media-new.php'>Media</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='http://localhost/wp-admin/post-new.php?post_type=page'>Page</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='http://localhost/wp-admin/user-new.php'>User</a></li></ul></div></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-admin/profile.php'>Hi, <span class="display-name">user_wordpress</span><img alt='' src='http://0.gravatar.com/avatar/3801af4276ac8eaac72dd6411088a758?s=26&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3801af4276ac8eaac72dd6411088a758?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='http://localhost/wp-admin/profile.php'><img alt='' src='http://0.gravatar.com/avatar/3801af4276ac8eaac72dd6411088a758?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3801af4276ac8eaac72dd6411088a758?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>user_wordpress</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='http://localhost/wp-admin/profile.php'>Edit My Profile</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='http://localhost/wp-login.php?action=logout&#038;_wpnonce=f4d6a9bdb1'>Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/wp-login.php?action=logout&#038;_wpnonce=f4d6a9bdb1">Log Out</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+							
+							<li id="tab-link-help-navigation">
+								<a href="#tab-panel-help-navigation" aria-controls="tab-panel-help-navigation">
+									Navigation								</a>
+							</li>
+							
+							<li id="tab-link-help-layout">
+								<a href="#tab-panel-help-layout" aria-controls="tab-panel-help-layout">
+									Layout								</a>
+							</li>
+							
+							<li id="tab-link-help-content">
+								<a href="#tab-panel-help-content" aria-controls="tab-panel-help-content">
+									Content								</a>
+							</li>
+													</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="https://wordpress.org/support/article/dashboard-screen/">Documentation on Dashboard</a></p><p><a href="https://wordpress.org/support/">Support</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title.</p>							</div>
+							
+							<div id="tab-panel-help-navigation" class="help-tab-content">
+								<p>The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimise this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.</p><p>Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.</p>							</div>
+							
+							<div id="tab-panel-help-layout" class="help-tab-content">
+								<p>You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well.</p><p><strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show.</p><p><strong>Drag and Drop</strong> &mdash; To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a grey dotted-line rectangle appear in the location you want to place the box.</p><p><strong>Box Controls</strong> &mdash; Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a &#8220;Configure&#8221; link in the title bar if you hover over it.</p>							</div>
+							
+							<div id="tab-panel-help-content" class="help-tab-content">
+								<p>The boxes on your Dashboard screen are:</p><p><strong>At A Glance</strong> &mdash; Displays a summary of the content on your site and identifies which theme and version of WordPress you are using.</p><p><strong>Activity</strong> &mdash; Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them.</p><p><strong>Quick Draft</strong> &mdash; Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you've started.</p><p><strong>WordPress Events and News</strong> &mdash; Upcoming events near you as well as the latest news from the official WordPress project and the <a href="https://planet.wordpress.org/">WordPress Planet</a>.</p><p><strong>Welcome</strong> &mdash; Shows links for some of the most common tasks when setting up a new site.</p>							</div>
+												</div>
+				</div>
+			</div>
+		<div id="screen-options-wrap" class="hidden" tabindex="-1" aria-label="Screen Options Tab">
+<form id='adv-settings' method='post'>
+		<fieldset class="metabox-prefs">
+		<legend>Boxes</legend>
+		<label for="owp_dashboard_news-hide"><input class="hide-postbox-tog" name="owp_dashboard_news-hide" type="checkbox" id="owp_dashboard_news-hide" value="owp_dashboard_news"  checked='checked' />OceanWP Overview</label><label for="dashboard_site_health-hide"><input class="hide-postbox-tog" name="dashboard_site_health-hide" type="checkbox" id="dashboard_site_health-hide" value="dashboard_site_health"  checked='checked' />Site Health Status</label><label for="dashboard_right_now-hide"><input class="hide-postbox-tog" name="dashboard_right_now-hide" type="checkbox" id="dashboard_right_now-hide" value="dashboard_right_now"  checked='checked' />At a Glance</label><label for="dashboard_activity-hide"><input class="hide-postbox-tog" name="dashboard_activity-hide" type="checkbox" id="dashboard_activity-hide" value="dashboard_activity"  checked='checked' />Activity</label><label for="dashboard_quick_press-hide"><input class="hide-postbox-tog" name="dashboard_quick_press-hide" type="checkbox" id="dashboard_quick_press-hide" value="dashboard_quick_press"  checked='checked' /><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></label><label for="dashboard_primary-hide"><input class="hide-postbox-tog" name="dashboard_primary-hide" type="checkbox" id="dashboard_primary-hide" value="dashboard_primary"  checked='checked' />WordPress Events and News</label><label for="wp_welcome_panel-hide"><input type="checkbox" id="wp_welcome_panel-hide" checked='checked' />Welcome</label>
+		</fieldset>
+		
+<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" value="087b3b05f5" />
+</form>
+</div>		</div>
+				<div id="screen-meta-links">
+					<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="show-settings-link" class="button show-settings" aria-controls="screen-options-wrap" aria-expanded="false">Screen Options</button>
+			</div>
+						<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div data-id="connect_account" data-manager-id="oceanwp:theme" data-slug="oceanwp" data-type="theme"	class="updated success fs-notice fs-sticky fs-has-title fs-slug-oceanwp fs-type-theme">		<label class="fs-plugin-title">OceanWP</label>
+				<div class="fs-close"><i class="dashicons dashicons-no"
+		                         title="Dismiss"></i> <span>Dismiss</span>
+		</div>
+		<div class="fs-notice-body">
+				We made a few tweaks to the theme, <b><a href="http://localhost/wp-admin/admin.php?page=oceanwp-panel">Opt in to make "OceanWP" better!</a></b>	</div>
+</div>
+<div id='setting-error-tgmpa' class='notice notice-warning settings-error is-dismissible'> 
+<p><strong><span style="display: block; margin: 0.5em 0.5em 0 0; clear: both;">This theme recommends the following plugins: <em><a href="http://localhost/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=elementor&#038;TB_iframe=true&#038;width=640&#038;height=500" class="thickbox">Elementor</a></em> and <em><a href="http://localhost/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=wpforms-lite&#038;TB_iframe=true&#038;width=640&#038;height=500" class="thickbox">WPForms</a></em>.</span>
+<span style="display: block; margin: 0.5em 0.5em 0 0; clear: both;"><a href="http://localhost/wp-admin/themes.php?page=install-required-plugins&#038;plugin_status=install">Begin installing plugins</a> | <a href="/wp-admin/?tgmpa-dismiss=dismiss_admin_notices&#038;_wpnonce=de9e9e97a7" class="dismiss-notice" target="_parent">Dismiss this notice</a></span>
+</strong></p></div> 
+
+<div class="wrap">
+	<h1>Dashboard</h1>
+
+
+	<div id="welcome-panel" class="welcome-panel">
+		<input type="hidden" id="welcomepanelnonce" name="welcomepanelnonce" value="f8bccdfaea" />		<a class="welcome-panel-close" href="http://localhost/wp-admin/?welcome=0" aria-label="Dismiss the welcome panel">Dismiss</a>
+			<div class="welcome-panel-content">
+	<h2>Welcome to WordPress!</h2>
+	<p class="about-description">We&#8217;ve assembled some links to get you started:</p>
+	<div class="welcome-panel-column-container">
+	<div class="welcome-panel-column">
+					<h3>Get Started</h3>
+			<a class="button button-primary button-hero load-customize hide-if-no-customize" href="http://localhost/wp-admin/customize.php">Customise Your Site</a>
+				<a class="button button-primary button-hero hide-if-customize" href="http://localhost/wp-admin/themes.php">Customise Your Site</a>
+								<p class="hide-if-no-customize">
+				or, <a href="http://localhost/wp-admin/customize.php?autofocus[panel]=themes">change your theme completely</a>			</p>
+			</div>
+	<div class="welcome-panel-column">
+		<h3>Next Steps</h3>
+		<ul>
+					<li><a href="http://localhost/wp-admin/post-new.php" class="welcome-icon welcome-write-blog">Write your first blog post</a></li>
+			<li><a href="http://localhost/wp-admin/post-new.php?post_type=page" class="welcome-icon welcome-add-page">Add an About page</a></li>
+			<li><a href="http://localhost/wp-admin/customize.php?autofocus[section]=static_front_page" class="welcome-icon welcome-setup-home">Set up your homepage</a></li>
+					<li><a href="http://localhost/" class="welcome-icon welcome-view-site">View your site</a></li>
+		</ul>
+	</div>
+	<div class="welcome-panel-column welcome-panel-last">
+		<h3>More Actions</h3>
+		<ul>
+					<li><a href="http://localhost/wp-admin/widgets.php" class="welcome-icon welcome-widgets">Manage widgets</a></li>
+							<li><a href="http://localhost/wp-admin/nav-menus.php" class="welcome-icon welcome-menus">Manage menus</a></li>
+							<li><a href="http://localhost/wp-admin/options-discussion.php" class="welcome-icon welcome-comments">Turn comments on or off</a></li>
+					<li><a href="https://wordpress.org/support/article/first-steps-with-wordpress-b/" class="welcome-icon welcome-learn-more">Learn more about getting started</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+		</div>
+
+	<div id="dashboard-widgets-wrap">
+	<div id="dashboard-widgets" class="metabox-holder">
+	<div id="postbox-container-1" class="postbox-container">
+	<div id="normal-sortables" class="meta-box-sortables"><div id="owp_dashboard_news" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: OceanWP Overview</span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span>OceanWP Overview</span></h2>
+<div class="inside">
+
+			<div class="owp-dashboard-widget">
+				<div class="owp-header">
+					<div class="owp-logo"><img src="http://localhost/wp-content/plugins/ocean-extra/assets/img/oceanwp.png" alt="OceanWP" /></div>
+					<div class="owp-versions">OceanWP v1.8.2</div>
+				</div>
+				<div class="rss-widget">
+					<h3 class="owp-heading">News & Updates</h3>
+					<ul><li><a class='rsswidget' href='https://oceanwp.org/blog/ecommerce-conversion-rate/?utm_source=wp-news-widget&utm_medium=wp-dash&utm_campaign=news-feed' target='_blank'>10 Actionable Tips to Get More Online Store Conversions in 2020</a><div class="rssSummary">So you’ve launched your online store. Now all that’s left is getting your target audience to visit the website, and the money should start rolling in your bank account. Right?&hellip;</div></li><li><a class='rsswidget' href='https://oceanwp.org/blog/how-create-wordpress-blog-2020-pros/?utm_source=wp-news-widget&utm_medium=wp-dash&utm_campaign=news-feed' target='_blank'>How to Create a WordPress Blog or Website in 2020, just like the Pros</a><div class="rssSummary">So you want to create a great impression with a stunning blog or website. Maybe you got inspired to write an online diary, create a digital resume for potential employers,&hellip;</div></li><li><a class='rsswidget' href='https://oceanwp.org/blog/wordpress-performance-tips-everyday-user/?utm_source=wp-news-widget&utm_medium=wp-dash&utm_campaign=news-feed' target='_blank'>WordPress Performance Tips for the Everyday User</a><div class="rssSummary">No matter what you do for a living, there is a big chance that you are running a website dedicated to your business. After all, the number of websites keeps&hellip;</div></li><li><a class='rsswidget' href='https://oceanwp.org/blog/how-to-create-custom-websites-with-dynamic-content-using-toolset-and-oceanwp/?utm_source=wp-news-widget&utm_medium=wp-dash&utm_campaign=news-feed' target='_blank'>How to create custom websites with dynamic content using Toolset and OceanWP</a><div class="rssSummary">You would be forgiven for automatically thinking that a custom website would take hours of coding to complete. In fact, the open secret in WordPress is that it is now&hellip;</div></li></ul>				</div>
+				<div class="owp-news-footer">
+					<a href="https://oceanwp.org/demos/" class="owp-post-link" target="_blank">Demos <span class="screen-reader-text">(opens in a new window)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a><a href="https://oceanwp.org/blog/" class="owp-post-link" target="_blank">Blog <span class="screen-reader-text">(opens in a new window)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a><a href="https://oceanwp.org/support/" class="owp-post-link" target="_blank">Help <span class="screen-reader-text">(opens in a new window)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a><a href="https://oceanwp.org/extensions/?utm_source=extensions&utm_medium=wp-dash&utm_campaign=news-feed" class="owp-post-link" target="_blank"><span style="color: #fe5252;">Extensions <span class="screen-reader-text">(opens in a new window)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></span></a>				</div>
+			</div>
+			</div>
+</div>
+<div id="dashboard_site_health" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Site Health Status</span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span>Site Health Status</span></h2>
+<div class="inside">
+	<div class="health-check-title-section site-health-progress-wrapper loading hide-if-no-js">
+		<div class="site-health-progress">
+			<svg role="img" aria-hidden="true" focusable="false" width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+				<circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+			</svg>
+		</div>
+		<div class="site-health-progress-label">
+							Results are still loading&hellip;					</div>
+	</div>
+
+			<p>
+							Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security.					</p>
+	
+			<p>
+			Take a look at the <strong>5 items</strong> on the <a href="http://localhost/wp-admin/site-health.php">Site Health screen</a>.		</p>
+	
+	</div>
+</div>
+<div id="dashboard_right_now" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: At a Glance</span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span>At a Glance</span></h2>
+<div class="inside">
+	<div class="main">
+	<ul>
+		</ul>
+	<p id='wp-version-message'><span id="wp-version">WordPress 5.4.1 running <a href="themes.php">OceanWP</a> theme.</span></p>	</div>
+	</div>
+</div>
+<div id="dashboard_activity" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Activity</span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span>Activity</span></h2>
+<div class="inside">
+<div id="activity-widget"><div class="no-activity"><p class="smiley" aria-hidden="true"></p><p>No activity yet!</p></div></div></div>
+</div>
+</div>	</div>
+	<div id="postbox-container-2" class="postbox-container">
+	<div id="side-sortables" class="meta-box-sortables"><div id="dashboard_quick_press" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></span></h2>
+<div class="inside">
+
+	<form name="post" action="http://localhost/wp-admin/post.php" method="post" id="quick-press" class="initial-form hide-if-no-js">
+
+		
+		<div class="input-text-wrap" id="title-wrap">
+			<label for="title">
+				Title			</label>
+			<input type="text" name="post_title" id="title" autocomplete="off" />
+		</div>
+
+		<div class="textarea-wrap" id="description-wrap">
+			<label for="content">Content</label>
+			<textarea name="content" id="content" placeholder="What&#8217;s on your mind?" class="mceEditor" rows="3" cols="15" autocomplete="off"></textarea>
+		</div>
+
+		<p class="submit">
+			<input type="hidden" name="action" id="quickpost-action" value="post-quickdraft-save" />
+			<input type="hidden" name="post_ID" value="8" />
+			<input type="hidden" name="post_type" value="post" />
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="5165aa342c" /><input type="hidden" name="_wp_http_referer" value="/wp-admin/" />			<input type="submit" name="save" id="save-post" class="button button-primary" value="Save Draft"  />			<br class="clear" />
+		</p>
+
+	</form>
+	</div>
+</div>
+<div id="dashboard_primary" class="postbox " >
+<button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: WordPress Events and News</span><span class="toggle-indicator" aria-hidden="true"></span></button><h2 class="hndle"><span>WordPress Events and News</span></h2>
+<div class="inside">
+
+	<div class="community-events-errors notice notice-error inline hide-if-js">
+		<p class="hide-if-js">
+			This widget requires JavaScript.		</p>
+
+		<p class="community-events-error-occurred" aria-hidden="true">
+			An error occurred. Please try again.		</p>
+
+		<p class="community-events-could-not-locate" aria-hidden="true"></p>
+	</div>
+
+	<div class="community-events-loading hide-if-no-js">
+		Loading&hellip;	</div>
+
+		<div id="community-events" class="community-events" aria-hidden="true">
+		<div class="activity-block">
+			<p>
+				<span id="community-events-location-message"></span>
+
+				<button class="button-link community-events-toggle-location" aria-label="Edit city" aria-expanded="false">
+					<span class="dashicons dashicons-edit"></span>
+				</button>
+			</p>
+
+			<form class="community-events-form" aria-hidden="true" action="http://localhost/wp-admin/admin-ajax.php" method="post">
+				<label for="community-events-location">
+					City:				</label>
+								<input id="community-events-location" class="regular-text" type="text" name="community-events-location" placeholder="London" />
+
+				<input type="submit" name="community-events-submit" id="community-events-submit" class="button" value="Submit"  />
+				<button class="community-events-cancel button-link" type="button" aria-expanded="false">
+					Cancel				</button>
+
+				<span class="spinner"></span>
+			</form>
+		</div>
+
+		<ul class="community-events-results activity-block last"></ul>
+	</div>
+
+	
+	<div class="wordpress-news hide-if-no-js">
+		<div class="rss-widget"><ul><li><a class='rsswidget' href='https://en-gb.wordpress.org/2020/02/14/manchester-wordpress-user-group-february-2020/'>Manchester WordPress User Group February 2020</a></li></ul></div><div class="rss-widget"><ul><li><a class='rsswidget' href='https://wptavern.com/wordcamp-spain-2020-qa-matt-mullenweg-discusses-virtual-events-decoupled-wordpress-and-the-future-of-page-builders?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wordcamp-spain-2020-qa-matt-mullenweg-discusses-virtual-events-decoupled-wordpress-and-the-future-of-page-builders'>WPTavern: WordCamp Spain 2020 Q&amp;A: Matt Mullenweg Discusses Virtual Events, Decoupled WordPress, and the Future of Page Builders</a></li><li><a class='rsswidget' href='https://wptavern.com/drag-and-drop-nav-menu-items-in-wordpress?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=drag-and-drop-nav-menu-items-in-wordpress'>WPTavern: Drag and Drop Nav Menu Items in WordPress</a></li><li><a class='rsswidget' href='https://wptavern.com/bringing-back-blogs-in-the-age-of-social-media-censorship?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bringing-back-blogs-in-the-age-of-social-media-censorship'>WPTavern: Bringing Back Blogs in the Age of Social Media Censorship</a></li></ul></div>	</div>
+
+	<p class="community-events-footer">
+		<a href="https://make.wordpress.org/community/meetups-landing-page" target="_blank">Meetups <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://central.wordcamp.org/schedule/" target="_blank">WordCamps <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://wordpress.org/news/" target="_blank">News <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>	</p>
+
+	</div>
+</div>
+</div>	</div>
+	<div id="postbox-container-3" class="postbox-container">
+	<div id="column3-sortables" class="meta-box-sortables"></div>	</div>
+	<div id="postbox-container-4" class="postbox-container">
+	<div id="column4-sortables" class="meta-box-sortables"></div>	</div>
+</div>
+
+	<input type="hidden" id="closedpostboxesnonce" name="closedpostboxesnonce" value="a0f78da6fa" /><input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" value="7789a2e6ff" />	</div><!-- dashboard-widgets-wrap -->
+
+</div><!-- wrap -->
+
+
+	<script id="tmpl-community-events-attend-event-near" type="text/template">
+		Attend an upcoming event near <strong>{{ data.location.description }}</strong>.	</script>
+
+	<script id="tmpl-community-events-could-not-locate" type="text/template">
+		We couldn&#8217;t locate <em>{{data.unknownCity}}</em>. Please try another nearby city. For example: London; Glasgow; Cardiff; Belfast.	</script>
+
+	<script id="tmpl-community-events-event-list" type="text/template">
+		<# _.each( data.events, function( event ) { #>
+			<li class="event event-{{ event.type }} wp-clearfix">
+				<div class="event-info">
+					<div class="dashicons event-icon" aria-hidden="true"></div>
+					<div class="event-info-inner">
+						<a class="event-title" href="{{ event.url }}">{{ event.title }}</a>
+						<span class="event-city">{{ event.location.location }}</span>
+					</div>
+				</div>
+
+				<div class="event-date-time">
+					<span class="event-date">{{ event.formatted_date }}</span>
+					<# if ( 'meetup' === event.type ) { #>
+						<span class="event-time">{{ event.formatted_time }}</span>
+					<# } #>
+				</div>
+			</li>
+		<# } ) #>
+	</script>
+
+	<script id="tmpl-community-events-no-upcoming-events" type="text/template">
+		<li class="event-none">
+			<# if ( data.location.description ) { #>
+				There aren&#8217;t any events scheduled near {{ data.location.description }} at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organise one</a>?
+			<# } else { #>
+				There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organise one</a>?			<# } #>
+		</li>
+	</script>
+	
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://en-gb.wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		Version 5.4.1	</p>
+	<div class="clear"></div>
+</div>
+            <script type="text/javascript">
+                (function ($) {
+                    $(document).ajaxSend(function (event, jqxhr, settings) {
+                        if (settings.url &&
+                            -1 < settings.url.indexOf('admin-ajax.php') &&
+                            ! ( settings.url.indexOf( '_fs_blog_admin' ) > 0 )
+                        ) {
+                            if (settings.url.indexOf('?') > 0) {
+                                settings.url += '&';
+                            } else {
+                                settings.url += '?';
+                            }
+
+                            settings.url += '_fs_blog_admin=true';
+
+                        }
+                    });
+                })(jQuery);
+            </script>
+                        <script type="text/javascript">
+                (function ($) {
+                    $('.fs-submenu-item.wp-support-forum').parent().attr('target', '_blank');
+                })(jQuery);
+            </script>
+            <script type="text/javascript" >
+	jQuery( document ).ready(function( $ ) {
+		$( '.fs-notice.fs-sticky .fs-close' ).click(function() {
+			var
+				notice           = $( this ).parents( '.fs-notice' ),
+				id               = notice.attr( 'data-id' ),
+				ajaxActionSuffix = notice.attr( 'data-manager-id' ).replace( ':', '-' );
+
+			notice.fadeOut( 'fast', function() {
+				var data = {
+					action    : 'fs_dismiss_notice_action_' + ajaxActionSuffix,
+					message_id: id
+				};
+
+				// since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+				$.post( ajaxurl, data, function( response ) {
+
+				});
+
+				notice.remove();
+			});
+		});
+	});
+</script>	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Close dialogue</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="http://localhost/wp-login.php?interim-login=1&#038;wp_lang=en_GB"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="http://localhost/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new tab. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	
+<script type='text/javascript'>
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","dismiss":"Dismiss this notice.","collapseMenu":"Collapse Main menu","expandMenu":"Expand Main menu"};var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost/wp-admin/load-scripts.php?c=1&amp;load%5Bchunk_0%5D=hoverIntent,common,hoverintent-js,admin-bar,clipboard,underscore,wp-util&amp;ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script>
+( 'fetch' in window ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="http://localhost/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script src='http://localhost/wp-includes/js/dist/dom-ready.min.js?ver=91fc8f05178d5c6365aec778f840ae17'></script>
+<script src='http://localhost/wp-includes/js/dist/a11y.min.js?ver=45f739d280d1244f6cb498ed8f1bf042'></script>
+<script src='http://localhost/wp-includes/js/dist/i18n.min.js?ver=cced130522e86c87a37cd7b8397b882c'></script>
+<script>
+var SiteHealth = {"screen":"dashboard","nonce":{"site_status":"e398e6c3b2","site_status_result":"c397c4191e"},"site_status":{"direct":[],"async":[],"issues":{"good":"11","recommended":"5","critical":"0"}}};
+</script>
+<script>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2020-04-04 12:47:11+0000","generator":"GlotPress\/2.4.0-alpha","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"All site health tests have finished running. There are items that should be addressed, and the results are now available on the page.":["All site health tests have finished running. There are items that should be addressed, and the results are now available on the page."],"Should be improved":["Should be improved"],"Good":["Good"],"%s critical issue":["%s critical issue","%s critical issues"],"%s item with no issues detected":["%s item with no issues detected","%s items with no issues detected"],"%s recommended improvement":["%s recommended improvement","%s recommended improvements"],"Site information has been added to your clipboard.":["Site information has been added to your clipboard."],"All site health tests have finished running. Your site is looking good, and the results are now available on the page.":["All site health tests have finished running. Your site is looking good, and the results are now available on the page."],"All site health tests have finished running.":["All site health tests have finished running."],"Please wait...":["Please wait..."]}},"comment":{"reference":"wp-admin\/js\/site-health.js"}} );
+</script>
+<script src='http://localhost/wp-admin/js/site-health.min.js?ver=5.4.1'></script>
+<script>
+var wpAjax = {"noPerm":"Sorry, you are not allowed to do that.","broken":"Something went wrong."};
+</script>
+<script src='http://localhost/wp-includes/js/wp-ajax-response.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.2'></script>
+<script src='http://localhost/wp-includes/js/wp-lists.min.js?ver=5.4.1'></script>
+<script>
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+</script>
+<script src='http://localhost/wp-includes/js/quicktags.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/jquery/jquery.query.js?ver=2.1.7'></script>
+<script>
+var adminCommentsL10n = {"hotkeys_highlight_first":"","hotkeys_highlight_last":"","replyApprove":"Approve and Reply","reply":"Reply","warnQuickEdit":"Are you sure you want to edit this comment?\nThe changes you made will be lost.","warnCommentChanges":"Are you sure you want to do this?\nThe comment changes you made will be lost.","docTitleComments":"Comments","docTitleCommentsCount":"Comments (%s)"};
+</script>
+<script src='http://localhost/wp-admin/js/edit-comments.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script src='http://localhost/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script src='http://localhost/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script src='http://localhost/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script>
+var postBoxL10n = {"postBoxEmptyString":"Drag boxes here"};
+</script>
+<script src='http://localhost/wp-admin/js/postbox.min.js?ver=5.4.1'></script>
+<script>
+var communityEventsData = {"nonce":"50774d62fc","cache":"","l10n":{"enter_closest_city":"Enter your closest city to find nearby events.","error_occurred_please_try_again":"An error occurred. Please try again.","attend_event_near_generic":"Attend an upcoming event near you.","could_not_locate_city":"We couldn&#8217;t locate %s. Please try another nearby city. For example: London; Glasgow; Cardiff; Belfast.","city_updated":"City updated. Listing events near %s."}};
+</script>
+<script src='http://localhost/wp-admin/js/dashboard.min.js?ver=5.4.1'></script>
+<script>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/localhost\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='http://localhost/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script>
+var plugininstallL10n = {"plugin_information":"Plugin:","plugin_modal_label":"Plugin details","ays":"Are you sure you want to install this plugin?"};
+</script>
+<script src='http://localhost/wp-admin/js/plugin-install.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/wp-sanitize.min.js?ver=5.4.1'></script>
+<script>
+var _wpUpdatesSettings = {"ajax_nonce":"74a6b4866c","l10n":{"searchResults":"Search results for &#8220;%s&#8221;","searchResultsLabel":"Search Results","noPlugins":"You do not appear to have any plugins available at this time.","noItemsSelected":"Please select at least one item to perform this action on.","updating":"Updating...","pluginUpdated":"Updated!","themeUpdated":"Updated!","update":"Update","updateNow":"Update Now","pluginUpdateNowLabel":"Update %s now","updateFailedShort":"Update Failed!","updateFailed":"Update Failed: %s","pluginUpdatingLabel":"Updating %s...","pluginUpdatedLabel":"%s updated!","pluginUpdateFailedLabel":"%s update failed","updatingMsg":"Updating... please wait.","updatedMsg":"Update completed successfully.","updateCancel":"Update cancelled.","beforeunload":"Updates may not complete if you navigate away from this page.","installNow":"Install Now","pluginInstallNowLabel":"Install %s now","installing":"Installing...","pluginInstalled":"Installed!","themeInstalled":"Installed!","installFailedShort":"Installation Failed!","installFailed":"Installation failed: %s","pluginInstallingLabel":"Installing %s...","themeInstallingLabel":"Installing %s...","pluginInstalledLabel":"%s installed!","themeInstalledLabel":"%s installed!","pluginInstallFailedLabel":"%s installation failed","themeInstallFailedLabel":"%s installation failed","installingMsg":"Installing... please wait.","installedMsg":"Installation completed successfully.","importerInstalledMsg":"Importer installed successfully. <a href=\"%s\">Run importer<\/a>","aysDelete":"Are you sure you want to delete %s?","aysDeleteUninstall":"Are you sure you want to delete %s and its data?","aysBulkDelete":"Are you sure you want to delete the selected plugins and their data?","aysBulkDeleteThemes":"Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?","deleting":"Deleting...","deleteFailed":"Deletion failed: %s","pluginDeleted":"Deleted!","themeDeleted":"Deleted!","livePreview":"Live Preview","activatePlugin":"Activate","activateTheme":"Activate","activatePluginLabel":"Activate %s","activateThemeLabel":"Activate %s","activateImporter":"Run Importer","activateImporterLabel":"Run %s","unknownError":"Something went wrong.","connectionError":"Connection lost or the server is busy. Please try again later.","nonceError":"An error has occurred. Please reload the page and try again.","pluginsFound":"Number of plugins found: %d","noPluginsFound":"No plugins found. Try a different search."}};
+</script>
+<script src='http://localhost/wp-admin/js/updates.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/shortcode.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-admin/js/media-upload.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-admin/js/svg-painter.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-includes/js/dist/hooks.min.js?ver=552e55b6e60db2edbd9073097f2686f7'></script>
+<script>
+var heartbeatSettings = {"nonce":"29bcc8ccb0"};
+</script>
+<script src='http://localhost/wp-includes/js/heartbeat.min.js?ver=5.4.1'></script>
+<script>
+var authcheckL10n = {"beforeunload":"Your session has expired. You can log in again from this page or go to the login page.","interval":"180"};
+</script>
+<script src='http://localhost/wp-includes/js/wp-auth-check.min.js?ver=5.4.1'></script>
+<script src='http://localhost/wp-content/plugins/ocean-extra/includes/widgets/js/insta-admin.min.js?ver=5.4.1'></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+</body>
+</html>
